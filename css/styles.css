@@ -1,0 +1,113 @@
+/* Set default margin and padding for all elements to 0 */
+* {
+  
+  box-sizing: border-box;
+  
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CSS selector to set style for the <body> element */
+body {
+  /* Set the font of text displayed */
+  font-family: Verdana;
+  background-image: url("https://images.unsplash.com/photo-1610648888194-e410f3d6828b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  /* Set the background color */
+  background-color: rgb(98, 180, 156);
+}
+
+h1 {
+  /* Set border around the element */
+  border: 1px solid rgb(182, 211, 129);
+  /* Set text color */
+  color: rgb(221, 148, 38);
+}
+
+h3 {
+  width: 100%;
+  height: 30px;
+  background: rgba(51, 79, 201, 0.507);
+  /* Shorthand to set padding of 10px on all sides */
+  padding: 10px 10px;
+  color: #d6ddc7;
+  font-weight: 900;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: rgb(41, 90, 133);
+  text-overflow: clip;
+  text-shadow: yellowgreen;
+  
+}
+
+.tile {
+  background-color: #7ce46881;
+  margin: 15px;
+  /* Set padding of 10px on top/bottom and 5px on right/left */
+  padding: 10px 5px;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  /* Show a scroll if text overflows but not otherwise */
+  overflow: auto;
+  color: rgb(221, 193, 193);
+  font-size: larger;
+  font-style: oblique;
+}
+
+#topics-learnt {
+  font-family: "Courier New";
+}
+
+.container {
+  margin-bottom: 10px;
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  background-color: #2433644b;
+  flex-grow: 3; 
+  width: 100%;
+  
+  
+}
+
+#title {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #9fc44b;
+  text-align: center;
+}
+
+/* Change the color of the link on hovering */
+a:hover {
+  color: rgb(124, 151, 59);
+}
+
+.hero-image img {
+  /* Set a specific height */
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 300px;
+}
+.hero-image1 img {
+  /* Set a specific height */
+  height: 300px;
+  float: right;
+  right: 0px;
+  
+  width: 50%;
+  object-position: 70% 50%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%
+}
